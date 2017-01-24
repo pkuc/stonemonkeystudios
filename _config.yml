@@ -1,28 +1,29 @@
-# Site settings
-title:
-email:
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here, Stone Monkey. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
-
-# User setting
-owner: Ryan Nohr
+---
+title: Stone Monkey Studios
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 email: stonemonkeygames@gmail.com
+description: 'Write an awesome description for your new site here, Stone Monkey. You
+  can edit this line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+
+'
+baseurl: ''
+url: ''
+owner: Ryan Nohr
 facebook_username: 
-twitter_username:
-github_username:
+twitter_username: 
+github_username: 
 address:
-  - line: 
-  - line:
-  # Feel free to add more lines here 
-telephone:
+- line: 
+- line: 
+telephone: 
 copyright: 2017
-
-# API settings
-google_api_key:
-
-# Build settings
+google_api_key: 
 markdown: kramdown
